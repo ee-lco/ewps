@@ -1,10 +1,12 @@
-SYM_DIR=../../lib/sym
-FP_DIR=../../lib/fp
-DEV_DIR=../../lib/dev
+SYM_DIR=../../lib/sym/
+FP_DIR=../../lib/fp/
+DEV_DIR=../../lib/dev/
 GR_DIR=~/projects/geda/geda-ruby/
 
+.SECONDARY:
+
 .PHONY: all
-all: ew10a.cmd ew11a.cmd ew12a.cmd
+all: ew10a-bias.cmd
 
 .PHONY: clean
 clean:
@@ -14,11 +16,7 @@ clean:
 mrproper: clean
 	rm -f *.pcb.bak* *.sch
 
-ew10a.cmd: ew10a.sch
-
-ew11a.cmd: ew11a.sch
-
-ew12a.cmd: ew12a.sch
+ew10a-bias.cmd: ew10a-bias.sch
 
 %.cmd: %.pcb Makefile
 	gsch2pcb -q -d $(FP_DIR) -o $(basename $@) $(filter %.sch,$^)
@@ -36,17 +34,20 @@ ew12a.cmd: ew12a.sch
 	@echo "Quit" >> $@
 	pcb --action-script $@
 
-./ew%a.INPUT.sch:: ../sch/ew10a.sch
+./%.INPUT.sch:: ../sch/%.sch
 	cp $< $@
 
 %.EMBED.sch: %.INPUT.sch
 	cp $< $@
 	(gschlas -e $@ && rm -f $@~) || rm -f $@
 
-%.VARMAP.sch: %.EMBED.sch
+%.COND.sch: %.EMBED.sch
 	ruby -I $(GR_DIR)scripts/cond -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/cond/cond.rb -D $(shell echo $@ | sed 's/.*ew\(..\)a.*/\1/') < $< > $@ || rm -f $@
 
-%.DEVMAP.sch: %.VARMAP.sch
+%.EXPR.sch: %.COND.sch
+	ruby -I $(GR_DIR)scripts/expr -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/expr/expr.rb < $< > $@ || rm -f $@
+
+%.DEVMAP.sch: %.EXPR.sch
 	ruby -I $(GR_DIR)scripts/devmap -I $(GR_DIR)scripts -I $(GR_DIR)src/.libs $(GR_DIR)scripts/devmap/devmap.rb -P $(DEV_DIR) < $< > $@ || rm -f $@
 
 %.PINMAP.sch: %.DEVMAP.sch
