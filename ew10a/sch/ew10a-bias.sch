@@ -279,129 +279,113 @@ device=RESISTOR
 T 49500 40800 5 10 0 0 0 0 1
 devmap=generic/R/0805/${value}
 }
-C 42400 51800 1 0 0 input-3.sym
-{
-T 41800 51600 5 10 0 0 0 0 1
-device=INPUT
-T 42500 52300 5 16 1 1 0 3 1
-refdes=J1
-T 43000 51900 5 16 1 1 0 2 1
-value=+IN
-T 43000 52200 5 16 1 1 0 0 1
-slot=1
-T 42400 51800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 42400 51800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
-C 70500 51800 1 0 0 output-3.sym
-{
-T 70700 51600 5 10 0 0 0 0 1
-device=OUTPUT
-T 71000 52300 5 16 1 1 0 3 1
-refdes=J2
-T 70500 51900 5 16 1 1 0 8 1
-value=+OUT
-T 70500 52200 5 16 1 1 0 6 1
-slot=1
-T 70500 51800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 70500 51800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
-C 42400 46800 1 0 0 input-3.sym
-{
-T 41800 46600 5 10 0 0 0 0 1
-device=INPUT
-T 42500 47300 5 16 1 1 0 3 1
-refdes=J1
-T 43000 46900 5 16 1 1 0 2 1
-value=GND
-T 43000 47200 5 16 1 1 0 0 1
-slot=2
-T 42400 46800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 42400 46800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
-C 42400 45800 1 0 0 input-3.sym
-{
-T 41800 45600 5 10 0 0 0 0 1
-device=INPUT
-T 42500 46300 5 16 1 1 0 3 1
-refdes=J1
-T 43000 45900 5 16 1 1 0 2 1
-value=GND
-T 43000 46200 5 16 1 1 0 0 1
-slot=3
-T 42400 45800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 42400 45800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
-C 42400 40800 1 0 0 input-3.sym
-{
-T 41800 40600 5 10 0 0 0 0 1
-device=INPUT
-T 42500 41300 5 16 1 1 0 3 1
-refdes=J1
-T 43000 40900 5 16 1 1 0 2 1
-value=-IN
-T 43000 41200 5 16 1 1 0 0 1
-slot=4
-T 42400 40800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 42400 40800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
 N 69500 46000 69500 47000 4
 N 69500 47000 70500 47000 4
 N 69500 46000 70500 46000 4
-C 70500 46800 1 0 0 output-3.sym
-{
-T 70700 46600 5 10 0 0 0 0 1
-device=OUTPUT
-T 71000 47300 5 16 1 1 0 3 1
-refdes=J2
-T 70500 46900 5 16 1 1 0 8 1
-value=GND
-T 70500 47200 5 16 1 1 0 6 1
-slot=2
-T 70500 46800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 70500 46800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
-C 70500 45800 1 0 0 output-3.sym
-{
-T 70700 45600 5 10 0 0 0 0 1
-device=OUTPUT
-T 71000 46300 5 16 1 1 0 3 1
-refdes=J2
-T 70500 45900 5 16 1 1 0 8 1
-value=GND
-T 70500 46200 5 16 1 1 0 6 1
-slot=3
-T 70500 45800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 70500 45800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
-C 70500 40800 1 0 0 output-3.sym
-{
-T 70700 40600 5 10 0 0 0 0 1
-device=OUTPUT
-T 71000 41300 5 16 1 1 0 3 1
-refdes=J2
-T 70500 40900 5 16 1 1 0 8 1
-value=-OUT
-T 70500 41200 5 16 1 1 0 6 1
-slot=4
-T 70500 40800 5 10 0 0 0 0 1
-net=${value}:${slot}
-T 70500 40800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
-}
 N 62500 48900 62500 49500 4
 N 62500 43500 62500 44000 4
 N 62500 46500 62500 47500 4
+C 42400 51700 1 0 0 input-4.sym
+{
+T 41800 51600 5 10 0 0 0 0 1
+device=INPUT
+T 42400 52300 5 16 1 1 0 0 1
+refdes=J1
+T 43000 51900 5 16 1 1 0 2 1
+value=+IN
+T 43000 52100 5 16 1 1 0 0 1
+slot=1
+T 42400 51700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 42400 46700 1 0 0 input-4.sym
+{
+T 41800 46600 5 10 0 0 0 0 1
+device=INPUT
+T 42400 47300 5 16 1 1 0 0 1
+refdes=J1
+T 43000 46900 5 16 1 1 0 2 1
+value=GND
+T 43000 47100 5 16 1 1 0 0 1
+slot=2
+T 42400 46700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 42400 45700 1 0 0 input-4.sym
+{
+T 41800 45600 5 10 0 0 0 0 1
+device=INPUT
+T 42400 46300 5 16 1 1 0 0 1
+refdes=J1
+T 43000 45900 5 16 1 1 0 2 1
+value=GND
+T 43000 46100 5 16 1 1 0 0 1
+slot=3
+T 42400 45700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 42400 40700 1 0 0 input-4.sym
+{
+T 41800 40600 5 10 0 0 0 0 1
+device=INPUT
+T 42400 41300 5 16 1 1 0 0 1
+refdes=J1
+T 43000 40900 5 16 1 1 0 2 1
+value=-IN
+T 43000 41100 5 16 1 1 0 0 1
+slot=4
+T 42400 40700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 70100 51700 1 0 0 output-4.sym
+{
+T 70700 51600 5 10 0 0 0 0 1
+device=OUTPUT
+T 71100 52300 5 16 1 1 0 6 1
+refdes=J2
+T 70500 51900 5 16 1 1 0 8 1
+value=+OUT
+T 70500 52100 5 16 1 1 0 6 1
+slot=1
+T 70100 51700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 70100 46700 1 0 0 output-4.sym
+{
+T 70700 46600 5 10 0 0 0 0 1
+device=OUTPUT
+T 71100 47300 5 16 1 1 0 6 1
+refdes=J2
+T 70500 46900 5 16 1 1 0 8 1
+value=GND
+T 70500 47100 5 16 1 1 0 6 1
+slot=2
+T 70100 46700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 70100 45700 1 0 0 output-4.sym
+{
+T 70700 45600 5 10 0 0 0 0 1
+device=OUTPUT
+T 71100 46300 5 16 1 1 0 6 1
+refdes=J2
+T 70500 45900 5 16 1 1 0 8 1
+value=GND
+T 70500 46100 5 16 1 1 0 6 1
+slot=3
+T 70100 45700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
+C 70100 40700 1 0 0 output-4.sym
+{
+T 70700 40600 5 10 0 0 0 0 1
+device=OUTPUT
+T 71100 41300 5 16 1 1 0 6 1
+refdes=J2
+T 70500 40900 5 16 1 1 0 8 1
+value=-OUT
+T 70500 41100 5 16 1 1 0 6 1
+slot=4
+T 70100 40700 5 10 0 0 0 0 1
+devmap=generic/PinHeader-4x1
+}
