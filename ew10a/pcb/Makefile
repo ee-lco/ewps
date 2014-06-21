@@ -6,7 +6,7 @@ GR_DIR=~/projects/geda/geda-ruby/
 .SECONDARY:
 
 .PHONY: all
-all: ew10a-bias.cmd
+all: ew10a-bias.cmd ew10a-power.cmd
 
 .PHONY: clean
 clean:
@@ -17,6 +17,8 @@ mrproper: clean
 	rm -f *.pcb.bak* *.sch
 
 ew10a-bias.cmd: ew10a-bias.sch
+
+ew10a-power.cmd: ew10a-power.sch
 
 %.cmd: %.pcb Makefile
 	gsch2pcb -q -d $(FP_DIR) -o $(basename $@) $(filter %.sch,$^)
