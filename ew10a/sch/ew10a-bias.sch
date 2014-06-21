@@ -26,7 +26,7 @@ value=196
 T 64400 50100 5 10 0 0 90 0 1
 device=RESISTOR
 T 64200 50100 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 64200 47600 1 90 0 resistor-2.sym
 {
@@ -37,7 +37,7 @@ value=1.69k
 T 64400 47600 5 10 0 0 90 0 1
 device=RESISTOR
 T 64200 47600 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 62400 53400 1 0 1 diode-1.sym
 {
@@ -59,7 +59,7 @@ value=10µ
 T 59100 49600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 58900 49600 5 10 0 0 0 0 1
-devmap=generic/C/1210/${value}
+devmap=generic/C/1210
 }
 C 62900 47500 1 90 0 capacitor-1.sym
 {
@@ -70,7 +70,7 @@ value=10n
 T 63100 47500 5 10 0 0 90 0 1
 device=CAPACITOR
 T 62900 47500 5 10 0 0 0 0 1
-devmap=generic/C/0805/${value}
+devmap=generic/C/0805
 }
 C 68900 49600 1 90 0 capacitor-1.sym
 {
@@ -81,7 +81,7 @@ value=10µ
 T 69100 49600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 68900 49600 5 10 0 0 0 0 1
-devmap=generic/C/1210/${value}
+devmap=generic/C/1210
 }
 N 50900 52000 60200 52000 4
 N 58500 51000 58500 52000 4
@@ -112,7 +112,7 @@ value=10µ
 T 59100 42000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 58900 42000 5 10 0 0 0 0 1
-devmap=generic/C/1210/${value}
+devmap=generic/C/1210
 }
 C 64200 44000 1 90 0 resistor-2.sym
 {
@@ -123,7 +123,7 @@ value=1.69k
 T 64400 44000 5 10 0 0 90 0 1
 device=RESISTOR
 T 64200 44000 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 62900 44000 1 90 0 capacitor-1.sym
 {
@@ -134,7 +134,7 @@ value=10n
 T 63100 44000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 62900 44000 5 10 0 0 0 0 1
-devmap=generic/C/0805/${value}
+devmap=generic/C/0805
 }
 C 68900 42000 1 90 0 capacitor-1.sym
 {
@@ -145,7 +145,7 @@ value=10µ
 T 69100 42000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 68900 42000 5 10 0 0 0 0 1
-devmap=generic/C/1210/${value}
+devmap=generic/C/1210
 }
 N 61500 41800 61500 43500 4
 N 61500 43500 64000 43500 4
@@ -159,7 +159,7 @@ value=196
 T 64400 41500 5 10 0 0 90 0 1
 device=RESISTOR
 T 64200 41500 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 N 50900 41000 60200 41000 4
 N 70500 41000 62800 41000 4
@@ -266,7 +266,7 @@ value=DNP
 T 49500 51600 5 10 0 0 0 0 1
 device=RESISTOR
 T 49500 51800 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 49500 40800 1 0 0 resistor-2.sym
 {
@@ -277,7 +277,7 @@ value=DNP
 T 49500 40600 5 10 0 0 0 0 1
 device=RESISTOR
 T 49500 40800 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 N 69500 46000 69500 47000 4
 N 69500 47000 70500 47000 4

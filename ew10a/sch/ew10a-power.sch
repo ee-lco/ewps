@@ -69,7 +69,7 @@ value=[10,11] DNP
 T 70700 44000 5 16 1 1 0 2 1
 value=[12] 100n
 T 70100 45000 5 10 0 0 0 0 1
-devmap=generic/C/1812/${value}
+devmap=generic/C/1812
 }
 C 70100 38500 1 270 0 capacitor-1.sym
 {
@@ -82,7 +82,7 @@ value=[10,11] DNP
 T 70700 37500 5 16 1 1 0 2 1
 value=[12] 100n
 T 70100 38500 5 10 0 0 0 0 1
-devmap=generic/C/1812/${value}
+devmap=generic/C/1812
 }
 C 44100 38500 1 270 0 capacitor-1.sym
 {
@@ -95,7 +95,7 @@ value=[10,11] DNP
 T 44700 37600 5 16 1 1 0 2 1
 value=[12] 100n
 T 44100 38500 5 10 0 0 0 0 1
-devmap=generic/C/0805/${value}
+devmap=generic/C/0805
 }
 C 47600 38500 1 270 0 capacitor-1.sym
 {
@@ -108,7 +108,7 @@ value=[10,11] DNP
 T 48200 37600 5 16 1 1 0 2 1
 value=[12] 100n
 T 47600 38500 5 10 0 0 0 0 1
-devmap=generic/C/0805/${value}
+devmap=generic/C/0805
 }
 C 36300 41500 1 270 0 resistor-1.sym
 {
@@ -163,7 +163,7 @@ value=1.2k
 T 49700 35400 5 16 1 1 0 5 1
 comment=1%
 T 49000 35800 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 55000 48300 1 0 0 resistor-1.sym
 {
@@ -220,7 +220,7 @@ value=[10,11] 0
 T 47100 39800 5 16 1 1 0 0 1
 value=[12] 75
 T 46800 41500 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 43300 41500 1 270 0 resistor-1.sym
 {
@@ -235,7 +235,7 @@ value=[10,11] 0
 T 43600 39800 5 16 1 1 0 0 1
 value=[12] 75
 T 43300 41500 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 55000 41800 1 0 0 resistor-1.sym
 {
@@ -248,7 +248,7 @@ value=[10,11] DNP
 T 55700 42300 5 16 1 1 0 3 1
 value=[12] 100k
 T 55000 41800 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 45800 38500 1 270 0 resistor-1.sym
 {
@@ -263,7 +263,7 @@ value=[10,11] 0
 T 46100 36800 5 16 1 1 0 0 1
 value=[12] 31.6k
 T 45800 38500 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 42300 38500 1 270 0 resistor-1.sym
 {
@@ -278,7 +278,7 @@ value=[10,11] 0
 T 42600 36800 5 16 1 1 0 0 1
 value=[12] 31.6k
 T 42300 38500 5 10 0 0 0 0 1
-devmap=generic/R/0805/${value}
+devmap=generic/R/0805
 }
 C 61300 41500 1 270 0 resistor-1.sym
 {
