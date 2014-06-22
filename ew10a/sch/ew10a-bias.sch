@@ -296,7 +296,7 @@ value=+IN
 T 43000 52100 5 16 1 1 0 0 1
 slot=1
 T 42400 51700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 42400 46700 1 0 0 input-4.sym
 {
@@ -309,7 +309,7 @@ value=GND
 T 43000 47100 5 16 1 1 0 0 1
 slot=2
 T 42400 46700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 42400 45700 1 0 0 input-4.sym
 {
@@ -322,7 +322,7 @@ value=GND
 T 43000 46100 5 16 1 1 0 0 1
 slot=3
 T 42400 45700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 42400 40700 1 0 0 input-4.sym
 {
@@ -335,7 +335,7 @@ value=-IN
 T 43000 41100 5 16 1 1 0 0 1
 slot=4
 T 42400 40700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 70100 51700 1 0 0 output-4.sym
 {
@@ -348,7 +348,7 @@ value=+OUT
 T 70500 52100 5 16 1 1 0 6 1
 slot=1
 T 70100 51700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 70100 46700 1 0 0 output-4.sym
 {
@@ -361,7 +361,7 @@ value=GND
 T 70500 47100 5 16 1 1 0 6 1
 slot=2
 T 70100 46700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 70100 45700 1 0 0 output-4.sym
 {
@@ -374,7 +374,7 @@ value=GND
 T 70500 46100 5 16 1 1 0 6 1
 slot=3
 T 70100 45700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 70100 40700 1 0 0 output-4.sym
 {
@@ -387,5 +387,5 @@ value=-OUT
 T 70500 41100 5 16 1 1 0 6 1
 slot=4
 T 70100 40700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }

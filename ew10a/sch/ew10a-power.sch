@@ -516,7 +516,7 @@ value=+V_BIAS
 T 24500 48600 5 16 1 1 0 0 1
 slot=1
 T 23900 48200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 23900 47200 1 0 0 input-4.sym
 {
@@ -529,7 +529,7 @@ value=GND
 T 24500 47600 5 16 1 1 0 0 1
 slot=2
 T 23900 47200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 23900 46200 1 0 0 input-4.sym
 {
@@ -542,7 +542,7 @@ value=GND
 T 24500 46600 5 16 1 1 0 0 1
 slot=3
 T 23900 46200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 23900 45200 1 0 0 input-4.sym
 {
@@ -555,7 +555,7 @@ value=-V_BIAS
 T 24500 45600 5 16 1 1 0 0 1
 slot=4
 T 23900 45200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 23900 43200 1 0 0 input-4.sym
 {
@@ -568,7 +568,7 @@ value=+INPUT
 T 24500 43600 5 16 1 1 0 0 1
 slot=1
 T 23900 43200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-3x1
+devmap=TE-Connectivity/1-770170-1
 }
 C 23900 36700 1 0 0 input-4.sym
 {
@@ -581,7 +581,7 @@ value=EARTH
 T 24500 37100 5 16 1 1 0 0 1
 slot=2
 T 23900 36700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-3x1
+devmap=TE-Connectivity/1-770170-1
 }
 C 23900 38200 1 0 0 input-4.sym
 {
@@ -594,7 +594,7 @@ value=-INPUT
 T 24500 38600 5 16 1 1 0 0 1
 slot=3
 T 23900 38200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-3x1
+devmap=TE-Connectivity/1-770170-1
 }
 C 23900 33200 1 0 0 input-4.sym
 {
@@ -607,7 +607,7 @@ value=Q_CTRL
 T 24500 33600 5 16 1 1 0 0 1
 slot=1
 T 23900 33200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 75600 51200 1 0 0 output-4.sym
 {
@@ -620,7 +620,7 @@ value=I_MON
 T 76000 51600 5 16 1 1 0 6 1
 slot=2
 T 75600 51200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 75600 49700 1 0 0 output-4.sym
 {
@@ -633,7 +633,7 @@ value=GND
 T 76000 50100 5 16 1 1 0 6 1
 slot=3
 T 75600 49700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 75600 33200 1 0 0 output-4.sym
 {
@@ -646,7 +646,7 @@ value=V_MON
 T 76000 33600 5 16 1 1 0 6 1
 slot=4
 T 75600 33200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-4x1
+devmap=TE-Connectivity/5-104450-3
 }
 C 75600 48200 1 0 0 output-4.sym
 {
@@ -659,7 +659,7 @@ value=+OUTPUT
 T 76000 48600 5 16 1 1 0 6 1
 slot=1
 T 75600 48200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-3x1
+devmap=TE-Connectivity/1-770170-1
 }
 C 75600 31700 1 0 0 output-4.sym
 {
@@ -672,7 +672,7 @@ value=-OUTPUT
 T 76000 32100 5 16 1 1 0 6 1
 slot=3
 T 75600 31700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-3x1
+devmap=TE-Connectivity/1-770170-1
 }
 C 75600 40700 1 0 0 output-4.sym
 {
@@ -685,5 +685,5 @@ value=EARTH
 T 76000 41100 5 16 1 1 0 6 1
 slot=2
 T 75600 40700 5 10 0 0 0 0 1
-devmap=generic/PinHeader-3x1
+devmap=TE-Connectivity/1-770170-1
 }
