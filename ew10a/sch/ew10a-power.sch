@@ -569,6 +569,8 @@ T 24500 43600 5 16 1 1 0 0 1
 slot=1
 T 23900 43200 5 10 0 0 0 0 1
 devmap=TE-Connectivity/1-770170-1
+T 23900 43200 5 10 0 0 0 0 1
+net=${value}:${slot}
 }
 C 23900 36700 1 0 0 input-4.sym
 {
@@ -595,6 +597,8 @@ T 24500 38600 5 16 1 1 0 0 1
 slot=3
 T 23900 38200 5 10 0 0 0 0 1
 devmap=TE-Connectivity/1-770170-1
+T 23900 38200 5 10 0 0 0 0 1
+net=${value}:${slot}
 }
 C 23900 33200 1 0 0 input-4.sym
 {
@@ -608,6 +612,8 @@ T 24500 33600 5 16 1 1 0 0 1
 slot=1
 T 23900 33200 5 10 0 0 0 0 1
 devmap=TE-Connectivity/5-104450-3
+T 23900 33200 5 10 0 0 0 0 1
+net=${value}:${slot}
 }
 C 75600 51200 1 0 0 output-4.sym
 {
@@ -621,6 +627,8 @@ T 76000 51600 5 16 1 1 0 6 1
 slot=2
 T 75600 51200 5 10 0 0 0 0 1
 devmap=TE-Connectivity/5-104450-3
+T 75600 51200 5 10 0 0 0 0 1
+net=${value}:${slot}
 }
 C 75600 49700 1 0 0 output-4.sym
 {
@@ -647,6 +655,8 @@ T 76000 33600 5 16 1 1 0 6 1
 slot=4
 T 75600 33200 5 10 0 0 0 0 1
 devmap=TE-Connectivity/5-104450-3
+T 75600 33200 5 10 0 0 0 0 1
+net=${value}:${slot}
 }
 C 75600 48200 1 0 0 output-4.sym
 {
@@ -673,6 +683,8 @@ T 76000 32100 5 16 1 1 0 6 1
 slot=3
 T 75600 31700 5 10 0 0 0 0 1
 devmap=TE-Connectivity/1-770170-1
+T 75600 31700 5 10 0 0 0 0 1
+net=${value}:${slot}
 }
 C 75600 40700 1 0 0 output-4.sym
 {
