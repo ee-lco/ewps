@@ -20,6 +20,10 @@ ew10a-bias.cmd: ew10a-bias.sch
 
 ew10a-power.cmd: ew10a-power.sch
 
+ew11a-power.cmd: ew11a-power.sch
+
+ew12a-power.cmd: ew12a-power.sch
+
 ew10a-analog.cmd: ew10a-analog.sch
 
 %.cmd: %.pcb Makefile
@@ -38,8 +42,12 @@ ew10a-analog.cmd: ew10a-analog.sch
 	@echo "Quit" >> $@
 	pcb --action-script $@
 
-./%.INPUT.sch:: ../sch/%.sch
-	cp $< $@
+define import-schematic
+./ew%a-$(1).INPUT.sch:: ../sch/ew10a-$(1).sch
+	cp $$< $$@
+
+endef
+$(foreach board,bias power analog,$(eval $(call import-schematic,$(board))))
 
 %.EMBED.sch: %.INPUT.sch
 	cp $< $@
