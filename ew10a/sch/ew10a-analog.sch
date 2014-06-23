@@ -516,7 +516,7 @@ C 58400 56300 1 0 0 opamp-no-supply-1.sym
 T 58800 56100 5 10 0 0 0 0 1
 device=OPAMP
 T 60400 57200 5 16 1 1 0 2 1
-refdes=U4a
+refdes=U4
 T 60400 56900 5 16 1 1 0 2 1
 value=LF442CN
 T 58400 56300 5 10 0 0 0 0 1
@@ -529,7 +529,7 @@ C 72500 58800 1 0 1 opamp-with-supply-1.sym
 T 72100 58600 5 10 0 0 0 6 1
 device=OPAMP
 T 70500 59700 5 16 1 1 0 8 1
-refdes=U4b
+refdes=U4
 T 70500 59400 5 16 1 1 0 8 1
 value=LF442CN
 T 72500 58800 5 10 0 0 0 6 1
@@ -542,7 +542,7 @@ C 85500 66800 1 0 0 opamp-with-supply-2.sym
 T 85900 66600 5 10 0 0 0 0 1
 device=OPAMP
 T 87500 67700 5 16 1 1 0 2 1
-refdes=U5a
+refdes=U5
 T 87500 67400 5 16 1 1 0 2 1
 value=LM393CN
 T 85500 66800 5 10 0 0 0 0 1
@@ -555,7 +555,7 @@ C 85500 62300 1 0 0 opamp-no-supply-2.sym
 T 85900 62100 5 10 0 0 0 0 1
 device=OPAMP
 T 87500 63200 5 16 1 1 0 2 1
-refdes=U5b
+refdes=U5
 T 87500 62900 5 16 1 1 0 2 1
 value=LM393CN
 T 85500 62300 5 10 0 0 0 0 1
