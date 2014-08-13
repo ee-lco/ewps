@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["EW10A - bias supplies" 120.0000mm 80.0000mm]
+PCB["EW10A - bias supply" 120.0000mm 80.0000mm]
 
 Grid[3937.007874 0.0000 0.0000 1]
 PolyArea[3100.006200]
@@ -1428,9 +1428,9 @@ Layer(10 "silk")
 	Text[77.8900mm 55.2500mm 1 100 "OUT+" ""]
 	Text[80.3900mm 55.2500mm 1 100 "OUT-" ""]
 	Text[78.6400mm 49.5000mm 0 100 "AUX" ""]
-	Text[13.0000mm 31.0000mm 0 100 "BIAS SUPPLY" "clearline"]
-	Text[13.0000mm 33.0000mm 0 100 "REV 1.0" "clearline"]
-	Text[13.0000mm 35.0000mm 0 100 "github.com/ee-lco/ewps" "clearline"]
+	Text[13.0000mm 31.0000mm 0 100 "BIAS SUPPLY" ""]
+	Text[13.0000mm 33.0000mm 0 100 "REV 1.0" ""]
+	Text[13.0000mm 35.0000mm 0 100 "github.com/ee-lco/ewps" ""]
 )
 NetList()
 (
