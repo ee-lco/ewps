@@ -16,6 +16,8 @@ clean:
 mrproper: clean
 	rm -f *.pcb.bak* *.sch
 
+ew10a.cmd: ew10a.sch
+
 ew10a-bias.cmd: ew10a-bias.sch
 
 ew10a-power.cmd: ew10a-power.sch
@@ -43,11 +45,12 @@ ew10a-analog.cmd: ew10a-analog.sch
 	pcb --action-script $@
 
 define import-schematic
-./ew%a-$(1).INPUT.sch:: ../sch/ew10a-$(1).sch
+./ew%a$(1).INPUT.sch:: ../sch/ew10a$(1).sch
 	cp $$< $$@
 
 endef
-$(foreach board,bias power analog,$(eval $(call import-schematic,$(board))))
+$(eval $(call import-schematic,))
+$(foreach board,-bias -power -analog,$(eval $(call import-schematic,$(board))))
 
 %.EMBED.sch: %.INPUT.sch
 	cp $< $@
