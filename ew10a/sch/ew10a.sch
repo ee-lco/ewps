@@ -849,9 +849,9 @@ T 53895 37900 5 16 1 1 0 0 1
 refdes=R44
 T 53900 37600 5 16 1 1 0 0 1
 value=*
-T 53600 36800 5 16 1 1 0 0 1
-value=[10,11] 0
 T 53600 37100 5 16 1 1 0 0 1
+value=[10,11] 0
+T 53600 36800 5 16 1 1 0 0 1
 value=[12] 31.6k
 T 53300 38500 5 10 0 0 0 0 1
 devmap=generic/R/0805
@@ -890,7 +890,7 @@ devmap=[10] TE-Connectivity/SMF3390RJT
 T 83300 38000 5 10 0 0 0 0 1
 devmap=[11] TE-Connectivity/SMF31K0JT
 T 83300 38000 5 10 0 0 0 0 1
-devmap=[11] TE-Connectivity/SMF3-DNP
+devmap=[12] TE-Connectivity/SMF3-DNP
 }
 C 26500 57200 1 0 0 fuse-1.sym
 {
