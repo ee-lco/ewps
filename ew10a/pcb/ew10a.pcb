@@ -2386,6 +2386,9 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+	Text[53.0000mm 22.0000mm 0 166 "EW10A" "clearline"]
+	Text[53.0000mm 25.0000mm 0 166 "REV 1.0" "clearline"]
+	Text[53.0000mm 28.0000mm 0 119 "github.com/ee-lco/ewps" "clearline"]
 )
 NetList()
 (
