@@ -1,0 +1,16 @@
+l,13,SYNC_N,in
+l,12,SCLK,in
+l,14,SDIN,in
+l,8,SDO,out
+l,9,LDAC_N,in
+l,10,GAIN,in
+r,3,VOUTA,out
+r,7,VOUTB,out
+t,5,VDD,pwr
+t,4,GND,pwr
+t,11,VLOGIC,pwr
+t,1,VREF,in
+b,15,RESET_N,in
+b,16,RSTSEL,in
+b,2,NC,pas
+b,6,NC,pas

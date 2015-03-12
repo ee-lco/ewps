@@ -1,0 +1,12 @@
+l,2,VIN,pwr
+l,4,GND,pwr
+l,-
+l,3,TEMP,out
+r,6,VOUT,pwr
+r,-
+r,-
+r,5,TRIM,out
+b,1,DNC,pas
+b,8,DNC,pas
+b,-
+b,7,NC,pas
