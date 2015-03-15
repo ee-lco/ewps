@@ -1,0 +1,4 @@
+r,1,+5V,pwr
+r,2,CANH,io
+r,3,CANL,io
+r,4,GND,pwr

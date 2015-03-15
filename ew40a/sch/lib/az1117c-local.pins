@@ -1,0 +1,9 @@
+l,2,VIN,pwr
+l,-
+l,-
+r,3,VOUT,pwr
+r,-
+r,-
+b,-
+b,1,GND,pwr
+b,-

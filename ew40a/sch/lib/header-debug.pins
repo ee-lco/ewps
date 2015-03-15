@@ -1,0 +1,10 @@
+l,1,VCC,pwr
+r,2,SWDIO,io
+l,3,GND,pwr
+r,4,SWDCLK,in
+l,5,GND,pwr
+r,6,SWO,out
+l,7,KEY,pas
+r,8,NC,pas
+l,9,GND,pwr
+r,10,NRST,in

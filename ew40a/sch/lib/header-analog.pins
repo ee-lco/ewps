@@ -1,0 +1,10 @@
+l,1,VCC,pwr
+r,2,GND,pwr
+l,3,OVP_REF,out
+r,4,OCP_REF,out
+l,5,VREF,out
+r,6,IREF,out
+l,7,VMON+,in
+r,8,VMON-,in
+l,9,IMON+,in
+r,10,IMON-,in

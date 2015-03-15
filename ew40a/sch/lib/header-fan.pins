@@ -1,0 +1,4 @@
+l,1,GND,pwr
+l,2,+12V,pwr
+l,3,TACH,in
+l,4,PWM,out
