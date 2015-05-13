@@ -1,0 +1,9 @@
+l,1,VMON+,in
+l,2,VMON-,in
+l,3,IMON+,in
+l,4,IMON-,in
+r,5,SPI_SCLK,in
+r,6,SPI_MISO,out
+r,7,SPI_MOSI,in
+r,8,ADC_SPI_CS_N,in
+r,9,ADC_SYNC_N,in

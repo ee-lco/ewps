@@ -1,0 +1,4 @@
+l,1,CAN_RX,out
+l,2,CAN_TX,in
+l,-
+l,3,CAN_NPOK,out
