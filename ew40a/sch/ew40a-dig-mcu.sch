@@ -1466,8 +1466,6 @@ T 81700 37600 5 10 0 0 0 6 1
 device=INPUT
 T 80500 38100 5 16 1 1 0 6 1
 refdes=CAN_NPOK
-T 81700 37800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 80500 53800 1 0 0 output-1.sym
 {
@@ -1475,8 +1473,6 @@ T 80700 53600 5 10 0 0 0 0 1
 device=OUTPUT
 T 80500 54100 5 16 1 1 0 6 1
 refdes=MCU_OVP_REF
-T 80500 53800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80500 52800 1 0 0 output-1.sym
 {
@@ -1484,8 +1480,6 @@ T 80700 52600 5 10 0 0 0 0 1
 device=OUTPUT
 T 80500 53100 5 16 1 1 0 6 1
 refdes=MCU_OCP_REF
-T 80500 52800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80500 50800 1 0 0 output-1.sym
 {
@@ -1493,8 +1487,6 @@ T 80700 50600 5 10 0 0 0 0 1
 device=OUTPUT
 T 80500 51100 5 16 1 1 0 6 1
 refdes=SPI_SCLK
-T 80500 50800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80500 49800 1 0 0 output-1.sym
 {
@@ -1502,8 +1494,6 @@ T 80700 49600 5 10 0 0 0 0 1
 device=OUTPUT
 T 80500 50100 5 16 1 1 0 6 1
 refdes=SPI_MISO
-T 80500 49800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80500 48800 1 0 0 output-1.sym
 {
@@ -1511,15 +1501,11 @@ T 80700 48600 5 10 0 0 0 0 1
 device=OUTPUT
 T 80500 49100 5 16 1 1 0 6 1
 refdes=SPI_MOSI
-T 80500 48800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80500 46800 1 0 0 output-1.sym
 {
 T 80700 46600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 46800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 47100 5 16 1 1 0 6 1
 refdes=DAC_SPI_CS_N
 }
@@ -1527,8 +1513,6 @@ C 80500 45800 1 0 0 output-1.sym
 {
 T 80700 45600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 45800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 46100 5 16 1 1 0 6 1
 refdes=DAC_LDAC_N
 }
@@ -1536,8 +1520,6 @@ C 80500 44800 1 0 0 output-1.sym
 {
 T 80700 44600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 44800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 45100 5 16 1 1 0 6 1
 refdes=DAC_RESET_N
 }
@@ -1545,8 +1527,6 @@ C 80500 42800 1 0 0 output-1.sym
 {
 T 80700 42600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 42800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 43100 5 16 1 1 0 6 1
 refdes=ADC_SPI_CS_N
 }
@@ -1554,8 +1534,6 @@ C 80500 41800 1 0 0 output-1.sym
 {
 T 80700 41600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 41800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 42100 5 16 1 1 0 6 1
 refdes=ADC_SYNC_N
 }
@@ -1563,8 +1541,6 @@ C 80500 34800 1 0 0 output-1.sym
 {
 T 80700 34600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 34800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 35100 5 16 1 1 0 6 1
 refdes=FAN1_PWM
 }
@@ -1574,8 +1550,6 @@ T 81700 35600 5 10 0 0 0 6 1
 device=INPUT
 T 80500 36100 5 16 1 1 0 6 1
 refdes=FAN1_TACH
-T 81700 35800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 81700 33800 1 0 1 input-1.sym
 {
@@ -1583,15 +1557,11 @@ T 81700 33600 5 10 0 0 0 6 1
 device=INPUT
 T 80500 34100 5 16 1 1 0 6 1
 refdes=FAN1_TEMP
-T 81700 33800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 80500 30800 1 0 0 output-1.sym
 {
 T 80700 30600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 30800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 31100 5 16 1 1 0 6 1
 refdes=FAN2_PWM
 }
@@ -1599,8 +1569,6 @@ C 81700 31800 1 0 1 input-1.sym
 {
 T 81700 31600 5 10 0 0 0 6 1
 device=INPUT
-T 81700 31800 5 10 0 0 0 6 1
-net=${refdes}:1
 T 80500 32100 5 16 1 1 0 6 1
 refdes=FAN2_TACH
 }
@@ -1608,8 +1576,6 @@ C 81700 29800 1 0 1 input-1.sym
 {
 T 81700 29600 5 10 0 0 0 6 1
 device=INPUT
-T 81700 29800 5 10 0 0 0 6 1
-net=${refdes}:1
 T 80500 30100 5 16 1 1 0 6 1
 refdes=FAN2_TEMP
 }
@@ -1619,15 +1585,11 @@ T 81700 39600 5 10 0 0 0 6 1
 device=INPUT
 T 80500 40100 5 16 1 1 0 6 1
 refdes=CAN_RX
-T 81700 39800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 80500 38800 1 0 0 output-1.sym
 {
 T 80700 38600 5 10 0 0 0 0 1
 device=OUTPUT
-T 80500 38800 5 10 0 0 0 0 1
-net=${refdes}:1
 T 80500 39100 5 16 1 1 0 6 1
 refdes=CAN_TX
 }

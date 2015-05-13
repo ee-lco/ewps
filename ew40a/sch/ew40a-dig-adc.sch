@@ -699,8 +699,6 @@ T 50800 52100 5 10 0 0 0 0 1
 device=INPUT
 T 51900 52600 5 16 1 1 0 0 1
 refdes=VMON+
-T 50800 52300 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 50800 50300 1 0 0 input-1.sym
 {
@@ -708,8 +706,6 @@ T 50800 50100 5 10 0 0 0 0 1
 device=INPUT
 T 51900 50600 5 16 1 1 0 0 1
 refdes=VMON-
-T 50800 50300 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 50800 46300 1 0 0 input-1.sym
 {
@@ -717,8 +713,6 @@ T 50800 46100 5 10 0 0 0 0 1
 device=INPUT
 T 51900 46600 5 16 1 1 0 0 1
 refdes=IMON+
-T 50800 46300 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 50800 44300 1 0 0 input-1.sym
 {
@@ -726,8 +720,6 @@ T 50800 44100 5 10 0 0 0 0 1
 device=INPUT
 T 51900 44600 5 16 1 1 0 0 1
 refdes=IMON-
-T 50800 44300 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80700 47800 1 0 1 input-1.sym
 {
@@ -735,8 +727,6 @@ T 80700 47600 5 10 0 0 0 6 1
 device=INPUT
 T 79600 48100 5 16 1 1 0 6 1
 refdes=SPI_SCLK
-T 80700 47800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 79500 46800 1 0 0 output-1.sym
 {
@@ -744,8 +734,6 @@ T 79700 46600 5 10 0 0 0 0 1
 device=OUTPUT
 T 79500 47100 5 16 1 1 0 6 1
 refdes=SPI_MISO
-T 79500 46800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 80700 45800 1 0 1 input-1.sym
 {
@@ -753,8 +741,6 @@ T 80700 45600 5 10 0 0 0 6 1
 device=INPUT
 T 79600 46100 5 16 1 1 0 6 1
 refdes=SPI_MOSI
-T 80700 45800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 80700 44800 1 0 1 input-1.sym
 {
@@ -762,8 +748,6 @@ T 80700 44600 5 10 0 0 0 6 1
 device=INPUT
 T 79600 45100 5 16 1 1 0 6 1
 refdes=ADC_SPI_CS_N
-T 80700 44800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 80700 43800 1 0 1 input-1.sym
 {
@@ -771,6 +755,4 @@ T 80700 43600 5 10 0 0 0 6 1
 device=INPUT
 T 79600 44100 5 16 1 1 0 6 1
 refdes=ADC_SYNC_N
-T 80700 43800 5 10 0 0 0 6 1
-net=${refdes}:1
 }

@@ -346,8 +346,6 @@ T 75700 53600 5 10 0 0 0 0 1
 device=OUTPUT
 T 75500 54100 5 16 1 1 0 6 1
 refdes=VREF
-T 75500 53800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 75500 51800 1 0 0 output-1.sym
 {
@@ -355,8 +353,6 @@ T 75700 51600 5 10 0 0 0 0 1
 device=OUTPUT
 T 75500 52100 5 16 1 1 0 6 1
 refdes=OCP_REF
-T 75500 51800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 75500 49800 1 0 0 output-1.sym
 {
@@ -364,8 +360,6 @@ T 75700 49600 5 10 0 0 0 0 1
 device=OUTPUT
 T 75500 50100 5 16 1 1 0 6 1
 refdes=OVP_REF
-T 75500 49800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 75500 47800 1 0 0 output-1.sym
 {
@@ -373,8 +367,6 @@ T 75700 47600 5 10 0 0 0 0 1
 device=OUTPUT
 T 75500 48100 5 16 1 1 0 6 1
 refdes=IREF
-T 75500 47800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 68200 45000 1 90 1 resistor-2.sym
 {
@@ -394,8 +386,6 @@ T 53800 53600 5 10 0 0 0 0 1
 device=INPUT
 T 55000 54100 5 16 1 1 0 0 1
 refdes=SPI_SCLK
-T 53800 53800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 55000 52800 1 0 1 output-1.sym
 {
@@ -403,8 +393,6 @@ T 54800 52600 5 10 0 0 0 6 1
 device=OUTPUT
 T 55000 53100 5 16 1 1 0 0 1
 refdes=SPI_MISO
-T 55000 52800 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 53800 51800 1 0 0 input-1.sym
 {
@@ -412,8 +400,6 @@ T 53800 51600 5 10 0 0 0 0 1
 device=INPUT
 T 55000 52100 5 16 1 1 0 0 1
 refdes=SPI_MOSI
-T 53800 51800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 53800 50800 1 0 0 input-1.sym
 {
@@ -421,8 +407,6 @@ T 53800 50600 5 10 0 0 0 0 1
 device=INPUT
 T 55000 51100 5 16 1 1 0 0 1
 refdes=DAC_SPI_CS_N
-T 53800 50800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 53800 48800 1 0 0 input-1.sym
 {
@@ -430,8 +414,6 @@ T 53800 48600 5 10 0 0 0 0 1
 device=INPUT
 T 55000 49100 5 16 1 1 0 0 1
 refdes=DAC_LDAC_N
-T 53800 48800 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 53800 47800 1 0 0 input-1.sym
 {
@@ -439,6 +421,4 @@ T 53800 47600 5 10 0 0 0 0 1
 device=INPUT
 T 55000 48100 5 16 1 1 0 0 1
 refdes=DAC_RESET_N
-T 53800 47800 5 10 0 0 0 0 1
-net=${refdes}:1
 }

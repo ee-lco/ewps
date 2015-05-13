@@ -358,8 +358,6 @@ T 51500 54100 5 10 0 0 0 6 1
 device=OUTPUT
 T 51600 54600 5 16 1 1 0 0 1
 refdes=CAN_RX
-T 51700 54300 5 10 0 0 0 6 1
-net=${refdes}:1
 }
 C 50500 53300 1 0 0 input-1.sym
 {
@@ -367,8 +365,6 @@ T 50500 53100 5 10 0 0 0 0 1
 device=INPUT
 T 51600 53600 5 16 1 1 0 0 1
 refdes=CAN_RX
-T 50500 53300 5 10 0 0 0 0 1
-net=${refdes}:1
 }
 C 51700 51300 1 0 1 output-1.sym
 {
@@ -376,6 +372,4 @@ T 51500 51100 5 10 0 0 0 6 1
 device=OUTPUT
 T 51600 51600 5 16 1 1 0 0 1
 refdes=CAN_RX
-T 51700 51300 5 10 0 0 0 6 1
-net=${refdes}:1
 }
