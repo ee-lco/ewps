@@ -1,3 +1,4 @@
+sheet=1
 l,1,SPI_SCLK,in
 l,2,SPI_MISO,out
 l,3,SPI_MOSI,in
