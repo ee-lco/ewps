@@ -1,0 +1,15 @@
+sheet=1
+r,1,VMON,in
+r,2,IMON,in
+r,-
+r,3,OVP_TRIP,in
+r,4,OCP_TRIP,in
+r,5,CV_ACTIVE,in
+r,6,CC_ACTIVE,in
+r,-
+r,7,VREF,out
+r,8,IREF,out
+r,9,OVP_REF,out
+r,10,OCP_REF,out
+r,-
+r,11,OUTPUT_OFF,out

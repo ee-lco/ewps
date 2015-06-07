@@ -1,0 +1,6 @@
+sheet=1
+l,1,VSENSE+,out
+l,2,VSENSE-,out
+l,3,ISENSE+,out
+l,4,ISENSE-,out
+l,5,SP_CTRL,in
