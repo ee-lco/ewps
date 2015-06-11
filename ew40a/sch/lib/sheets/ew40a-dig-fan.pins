@@ -1,4 +1,4 @@
 sheet=1
-l,1,FAN_TACH,out
-l,2,FAN_PWM,in
-l,3,FAN_TEMP,out
+r,1,FAN_TACH,out
+r,2,FAN_PWM,in
+r,3,FAN_TEMP,out

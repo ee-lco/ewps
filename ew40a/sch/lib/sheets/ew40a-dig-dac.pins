@@ -6,10 +6,10 @@ l,4,DAC_SPI_CS_N,in
 l,-
 l,5,DAC_LDAC_N,in
 l,6,DAC_RESET_N,in
-r,7,VREF,out
+r,7,DAC_VREF,out
 r,-
-r,8,IREF,out
+r,8,DAC_IREF,out
 r,-
-r,9,OVP_REF,out
+r,9,DAC_OVP_REF,out
 r,-
-r,10,OCP_REF,out
+r,10,DAC_OCP_REF,out

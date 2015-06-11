@@ -1,5 +1,5 @@
 sheet=1
-l,1,CAN_RX,out
-l,2,CAN_TX,in
-l,-
-l,3,CAN_NPOK,out
+r,1,CAN_RX,out
+r,2,CAN_TX,in
+r,-
+r,3,CAN_NPOK,out

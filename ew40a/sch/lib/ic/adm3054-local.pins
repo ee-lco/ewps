@@ -18,7 +18,7 @@ r,-
 r,16,GND2,pwr
 r,9,GND2,pwr
 r,-
-b,1,NC,pas
-b,-
 b,15,NC,pas
 b,14,NC,pas
+b,-
+b,1,NC,pas
