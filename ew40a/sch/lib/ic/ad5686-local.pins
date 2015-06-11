@@ -5,7 +5,7 @@ l,14,SDIN,in
 l,13,SYNC_N,in
 l,-
 l,9,LDAC_N,in
-l,10,GAIN,in
+l,15,RESET_N,in
 l,-
 r,-
 r,3,VOUTA,out
@@ -20,8 +20,8 @@ t,-
 t,11,VLOGIC,pwr
 t,-
 t,1,VREF,in
-b,15,RESET_N,in
 b,16,RSTSEL,in
 b,-
+b,10,GAIN,in
 b,-
 b,4,GND,pwr
