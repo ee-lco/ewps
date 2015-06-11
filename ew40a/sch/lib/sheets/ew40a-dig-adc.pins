@@ -5,7 +5,11 @@ l,7,SPI_MOSI,in
 l,8,ADC_SPI_CS_N,in
 l,-
 l,9,ADC_SYNC_N,in
-r,1,VMON+,in
-r,2,VMON-,in
-r,3,IMON+,in
-r,4,IMON-,in
+r,1,ADC_IN1,in
+r,1,ADC_IN2,in
+r,1,ADC_IN3,in
+r,1,ADC_IN4,in
+r,1,ADC_IN5,in
+r,1,ADC_IN6,in
+r,1,ADC_IN7,in
+r,1,ADC_IN8,in
