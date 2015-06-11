@@ -168,3 +168,10 @@ device=OUTPUT
 T 83500 43100 5 16 1 1 0 6 1
 refdes=OUTPUT_OFF
 }
+B 69000 53500 7500 6000 3 10 1 2 200 200 0 -1 -1 -1 -1 -1
+T 69200 58400 9 16 1 0 0 2 3
+AVdd / Vref
+- MCU max AVdd is 3.6V (min AVdd)
+- DAC offset/full-scale error increases when Vcc > ~4.5V
+T 69200 59300 9 32 1 0 0 2 1
+TODO
