@@ -1,3 +1,2 @@
-lib-path   ../../lib/fp
-lib-newlib ../../lib/fp
-
+lib-path   ../../lib/fp:./pcb/lib
+lib-newlib ../../lib/fp:./pcb/lib

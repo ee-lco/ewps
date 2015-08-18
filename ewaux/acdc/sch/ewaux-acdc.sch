@@ -138,6 +138,12 @@ T 49500 55200 5 10 0 0 0 0 1
 graphical=1
 }
 C 55900 43600 1 0 0 chassis-1.sym
+{
+T 56500 43500 5 16 1 1 0 5 1
+refdes=J107
+T 55900 43600 5 10 0 0 0 0 1
+footprint=CHASSIS_GROUND.fp
+}
 N 53500 45000 56500 45000 4
 N 56500 45000 56500 44400 4
 C 80600 52200 1 0 0 vout-1.sym
@@ -189,18 +195,22 @@ value=DNP
 T 56900 53100 5 10 0 0 180 0 1
 device=RESISTOR
 T 56900 52900 5 10 0 0 270 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
+T 55600 52600 5 16 1 1 0 8 1
+voltage-rating=500V
 }
 C 57800 52400 1 270 0 resistor-2.sym
 {
-T 58295 51800 5 16 1 1 0 0 1
-refdes=R102
-T 58300 51600 5 16 1 1 0 2 1
+T 58295 52000 5 16 1 1 0 0 1
+refdes=R101
+T 58300 51600 5 16 1 1 0 0 1
 value=0R
 T 57600 52400 5 10 0 0 270 0 1
 device=RESISTOR
 T 57800 52400 5 10 0 0 0 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
+T 58300 51200 5 16 1 1 0 0 1
+voltage-rating=500V
 }
 N 58000 55500 58000 53500 4
 N 58000 53500 59500 53500 4
@@ -214,14 +224,16 @@ N 56900 50800 59200 50800 4
 N 59200 50800 59200 51500 4
 C 79300 49500 1 270 0 resistor-2.sym
 {
-T 79795 48900 5 16 1 1 0 0 1
+T 79795 49100 5 16 1 1 0 0 1
 refdes=R106
-T 79800 48700 5 16 1 1 0 2 1
-value=DNP
+T 79800 48700 5 16 1 1 0 0 1
+value=1k
 T 79100 49500 5 10 0 0 270 0 1
 device=RESISTOR
 T 79300 49500 5 10 0 0 0 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
+T 79800 48300 5 16 1 1 0 0 1
+power-rating=2W
 }
 N 79500 49500 79500 51500 4
 N 79500 48100 79500 46000 4
@@ -278,7 +290,7 @@ refdes=R103
 T 65300 52800 5 16 1 1 0 0 1
 value=0R
 T 64000 52500 5 10 0 0 0 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
 }
 C 62800 52400 1 270 0 resistor-2.sym
 {
@@ -289,7 +301,7 @@ value=DNP
 T 62600 52400 5 10 0 0 270 0 1
 device=RESISTOR
 T 62800 52400 5 10 0 0 0 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
 }
 C 64000 50600 1 0 0 resistor-2.sym
 {
@@ -300,18 +312,20 @@ refdes=R105
 T 65300 50900 5 16 1 1 0 0 1
 value=0R
 T 64000 50600 5 10 0 0 0 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
 }
 C 56900 51000 1 180 0 resistor-2.sym
 {
 T 55595 50900 5 16 1 1 0 6 1
-refdes=R101
+refdes=R102
 T 56800 50900 5 16 1 1 0 0 1
 value=DNP
 T 56900 51200 5 10 0 0 180 0 1
 device=RESISTOR
 T 56900 51000 5 10 0 0 270 0 1
-devmap=generic/R/1206
+devmap=generic/R/2512
+T 55600 50700 5 16 1 1 0 8 1
+voltage-rating=500V
 }
 N 55500 50800 55000 50800 4
 N 55000 50800 55000 55500 4
@@ -340,7 +354,7 @@ refdes=J100
 T 53500 55400 5 16 1 1 0 2 1
 description=L
 T 53400 55500 5 10 0 0 0 0 1
-footprint=MOUNTING_HOLE_V_M3.fp
+devmap=TE-Connectivity/63849-1
 }
 C 52900 47800 1 0 0 input-3.sym
 {
@@ -351,7 +365,7 @@ refdes=J101
 T 53500 47900 5 16 1 1 0 2 1
 description=N
 T 53400 48000 5 10 0 0 0 0 1
-footprint=MOUNTING_HOLE_V_M3.fp
+devmap=TE-Connectivity/63849-1
 }
 C 52900 44800 1 0 0 input-3.sym
 {
