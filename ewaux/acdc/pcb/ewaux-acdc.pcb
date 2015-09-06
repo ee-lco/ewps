@@ -1401,76 +1401,65 @@ NetList()
 	)
 	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("F1-2")
+		Connect("J200-7")
 	)
 	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("S1-2")
+		Connect("J200-8")
 	)
 	Net("unnamed_net11" "(unknown)")
 	(
+		Connect("J200-9")
 	)
 	Net("unnamed_net12" "(unknown)")
 	(
-		Connect("J200-7")
+		Connect("J200-10")
 	)
 	Net("unnamed_net13" "(unknown)")
 	(
-		Connect("J200-8")
+		Connect("J201-7")
 	)
 	Net("unnamed_net14" "(unknown)")
 	(
-		Connect("J200-9")
+		Connect("J201-8")
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
-		Connect("J200-10")
+		Connect("J201-9")
 	)
 	Net("unnamed_net16" "(unknown)")
 	(
-		Connect("J201-7")
+		Connect("J201-10")
 	)
 	Net("unnamed_net17" "(unknown)")
 	(
-		Connect("J201-8")
+		Connect("J202-7")
 	)
 	Net("unnamed_net18" "(unknown)")
 	(
-		Connect("J201-9")
+		Connect("J202-8")
 	)
 	Net("unnamed_net19" "(unknown)")
 	(
-		Connect("J201-10")
+		Connect("J202-9")
 	)
 	Net("unnamed_net20" "(unknown)")
 	(
-		Connect("J202-7")
+		Connect("J202-10")
 	)
 	Net("unnamed_net21" "(unknown)")
 	(
-		Connect("J202-8")
+		Connect("J203-7")
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("J202-9")
+		Connect("J203-8")
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
-		Connect("J202-10")
-	)
-	Net("unnamed_net24" "(unknown)")
-	(
-		Connect("J203-7")
-	)
-	Net("unnamed_net25" "(unknown)")
-	(
-		Connect("J203-8")
-	)
-	Net("unnamed_net26" "(unknown)")
-	(
 		Connect("J203-9")
 	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net24" "(unknown)")
 	(
 		Connect("J203-10")
 	)
