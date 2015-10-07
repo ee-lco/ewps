@@ -1,0 +1,6 @@
+r,1,VDD,pwr
+r,2,SWDCLK,in
+r,3,GND,pwr
+r,4,SWDIO,io
+r,5,NRST,in
+r,6,SWO,out

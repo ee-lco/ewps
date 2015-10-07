@@ -1,0 +1,6 @@
+r,1,VDD,pwr
+r,2,D-,io
+r,3,D+,io
+r,4,ID,out
+r,5,GND,pwr
+r,6,SHELL,pwr
