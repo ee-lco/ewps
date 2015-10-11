@@ -120,7 +120,7 @@ refdes=Y200
 T 48700 57000 5 16 1 1 0 2 1
 value=32.768 kHz
 T 48900 56600 5 10 0 0 0 0 1
-footprint=HC_49S
+footprint=TODO
 }
 C 47900 56900 1 180 0 capacitor-1.sym
 {
@@ -129,7 +129,7 @@ device=CAPACITOR
 T 47505 56300 5 16 1 1 0 2 1
 refdes=C206
 T 46900 56300 5 16 1 1 0 8 1
-value=0F
+value=15p
 T 47900 56900 5 10 0 0 0 0 1
 devmap=generic/C/0603
 }
@@ -142,7 +142,7 @@ device=CAPACITOR
 T 47505 58300 5 16 1 1 0 2 1
 refdes=C205
 T 46900 58300 5 16 1 1 0 8 1
-value=0F
+value=15p
 T 47900 58900 5 10 0 0 0 0 1
 devmap=generic/C/0603
 }
@@ -172,7 +172,7 @@ device=CAPACITOR
 T 47505 52300 5 16 1 1 0 2 1
 refdes=C208
 T 46900 52300 5 16 1 1 0 8 1
-value=0F
+value=47p
 T 47900 52900 5 10 0 0 0 0 1
 devmap=generic/C/0603
 }
@@ -185,7 +185,7 @@ device=CAPACITOR
 T 47505 54300 5 16 1 1 0 2 1
 refdes=C207
 T 46900 54300 5 16 1 1 0 8 1
-value=0F
+value=47p
 T 47900 54900 5 10 0 0 0 0 1
 devmap=generic/C/0603
 }
