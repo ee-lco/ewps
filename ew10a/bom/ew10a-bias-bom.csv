@@ -1,0 +1,15 @@
+refdes:footprint:value:manuf:manuf-pn:mouser-pn:farnell-pn:qty
+U3:TO220AB.fp::ON Semiconductor:LM337TG::1211104:1
+R7,R8:R_0805.fp:1.69k:::::2
+J1:TE_AMPMODU_MTE_6.fp:+IN_BIAS:TE Connectivity:5-104450-5:571-5-104450-5::1
+J2:TE_AMPMODU_MTE_6.fp:+OUT_BIAS:TE Connectivity:5-104450-5:571-5-104450-5::1
+U1,U2:TO220AB.fp::ON Semiconductor:LM317TG::1652293:2
+R4,R6,R9:R_0805.fp:196:::::3
+R5:R_0805.fp:590:::::1
+D1,D2,D3:D_SMA.fp:1N4001:Diodes Inc:S1A-13-F:621-S1A-F::3
+C7,C8,C9:C_0805.fp:10n:::::3
+C10,C11,C12,C4,C5,C6:C_1210.fp:10µ:::::6
+C1,C2,C3:CP_CAN_200.fp:470µ:Nichicon:UPW1H471MHD:647-UPW1H471MHD::3
+BR1,BR2:TS_DBLS.fp:DF01:::::2
+F1,F2,F3:F_1812.fp:1A:::::3
+R1,R2,R3:R_0805.fp:DNP:::::3

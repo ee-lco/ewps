@@ -1,0 +1,17 @@
+G04 start of page 4 for group 4 idx 6 *
+G04 Title: EW10A - bias supply, outline *
+G04 Creator: pcb 1.99z *
+G04 CreationDate: Wed 13 Aug 2014 11:07:00 PM GMT UTC *
+G04 For: eelco *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 4724.41 3149.61 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD46C,0.0200*%
+G54D46*X433071Y255906D02*Y59055D01*
+X39370D02*X433071D01*
+X39370Y255906D02*Y59055D01*
+Y255906D02*X433071D01*
+M02*

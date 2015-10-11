@@ -1,0 +1,17 @@
+G04 start of page 4 for group 4 idx 6 *
+G04 Title: EW10A - linear power supply, outline *
+G04 Creator: pcb 1.99z *
+G04 CreationDate: Mon 08 Sep 2014 07:20:40 PM GMT UTC *
+G04 For: eelco *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 5511.81 5511.81 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNOUTLINE*%
+%ADD68C,0.0197*%
+G54D68*X78740Y78740D02*Y472441D01*
+X472441Y78740D02*X78740D01*
+X472441Y472441D02*Y78740D01*
+X78740Y472441D02*X472441D01*
+M02*
