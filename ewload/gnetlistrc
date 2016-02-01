@@ -1,0 +1,4 @@
+(reset-component-library)
+(reset-source-library)
+(source-library "./pcb")
+(hierarchy-uref-mangle "disabled")
