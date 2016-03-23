@@ -787,7 +787,6 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "1.0000mm")
-Via[32.7300mm 43.6900mm 0.9000mm 0.0000 0.0000 0.4000mm "" ""]
 Via[62.6000mm 48.5000mm 0.9500mm 0.5000mm 38.00mil 0.4500mm "" "thermal(1S,2S)"]
 Via[62.6000mm 49.5000mm 0.9500mm 0.5000mm 38.00mil 0.4500mm "" "thermal(1S,2S)"]
 Via[59.4000mm 49.5000mm 0.9500mm 0.5000mm 38.00mil 0.4500mm "" "thermal(1S,2S)"]
