@@ -4,16 +4,16 @@ C 58800 61300 1 0 0 nmos-1.sym
 T 58800 61100 5 10 0 0 0 0 1
 device=NMOS_TRANSISTOR
 T 61000 63600 5 16 1 1 0 0 1
-refdes=Q?
+refdes=Q3
 T 61000 63200 5 16 1 1 0 0 1
 value=IRFP250N
 T 58800 61300 5 10 1 0 0 0 1
-footprint=TO247.fp
+devmap=IRF/IRFP250NPBF
 }
 C 51000 58300 1 0 0 resistor-2.sym
 {
 T 51695 59100 5 16 1 1 0 3 1
-refdes=R?
+refdes=R7
 T 51700 58800 5 16 1 1 0 3 1
 value=0R
 T 51000 58100 5 10 0 0 0 0 1
@@ -24,7 +24,7 @@ devmap=generic/R/0603
 C 42000 62600 1 0 0 capacitor-1.sym
 {
 T 42395 63200 5 16 1 1 0 6 1
-refdes=C?
+refdes=C3
 T 43000 63200 5 16 1 1 0 0 1
 value=470p
 T 42000 62400 5 10 0 0 0 0 1
@@ -39,13 +39,13 @@ N 45000 63000 45000 58500 4
 C 60700 46900 1 90 0 resistor-4w-4.sym
 {
 T 60795 48100 5 16 1 1 0 0 1
-refdes=R?
+refdes=R17
 T 60800 47900 5 16 1 1 0 2 1
 value=50m
 T 60900 46900 5 10 0 0 90 0 1
 device=RESISTOR
 T 60700 46900 5 10 0 0 0 0 1
-devmap=TT-Electronics/OARS1-R040FI
+devmap=generic/R/2512
 }
 N 60500 49100 60500 61300 4
 N 50400 48800 56500 48800 4
@@ -57,7 +57,7 @@ C 67200 58100 1 90 0 resistor-2.sym
 T 67400 58100 5 10 0 0 90 0 1
 device=RESISTOR
 T 67295 58900 5 16 1 1 0 0 1
-refdes=R?
+refdes=R15
 T 67300 58700 5 16 1 1 0 2 1
 value=2.2
 T 67200 58100 5 10 0 0 0 0 1
@@ -68,7 +68,7 @@ C 66600 57000 1 270 0 capacitor-1.sym
 T 66400 57000 5 10 0 0 270 0 1
 device=CAPACITOR
 T 67195 56500 5 16 1 1 0 0 1
-refdes=C?
+refdes=C11
 T 67200 56100 5 16 1 1 0 2 1
 value=2.2u
 T 66600 57000 5 10 0 0 0 0 1
@@ -84,7 +84,7 @@ C 19400 60700 1 0 0 input-4.sym
 T 18800 60600 5 10 0 0 0 0 1
 device=INPUT
 T 19400 61300 5 16 1 1 0 0 1
-refdes=J?
+refdes=J1
 T 20000 60900 5 16 1 1 0 2 1
 description=+15V
 T 19400 60700 5 10 0 0 0 0 1
@@ -95,7 +95,7 @@ C 19400 55700 1 0 0 input-4.sym
 T 18800 55600 5 10 0 0 0 0 1
 device=INPUT
 T 19400 56300 5 16 1 1 0 0 1
-refdes=J?
+refdes=J3
 T 20000 55900 5 16 1 1 0 2 1
 description=-15V
 T 19400 55700 5 10 0 0 0 0 1
@@ -106,7 +106,7 @@ C 69100 65700 1 0 1 input-4.sym
 T 69700 65600 5 10 0 0 0 6 1
 device=INPUT
 T 69100 66300 5 16 1 1 0 6 1
-refdes=J?
+refdes=J5
 T 68500 65900 5 16 1 1 0 8 1
 description=VIN+
 T 69100 65700 5 10 0 0 0 0 1
@@ -117,7 +117,7 @@ C 69100 64700 1 0 1 input-4.sym
 T 69700 64600 5 10 0 0 0 6 1
 device=INPUT
 T 69100 65300 5 16 1 1 0 6 1
-refdes=J?
+refdes=J6
 T 68500 64900 5 16 1 1 0 8 1
 description=VIN+
 T 69100 64700 5 10 0 0 0 0 1
@@ -132,7 +132,7 @@ C 19400 58200 1 0 0 input-4.sym
 T 18800 58100 5 10 0 0 0 0 1
 device=INPUT
 T 19400 58800 5 16 1 1 0 0 1
-refdes=J?
+refdes=J2
 T 20000 58400 5 16 1 1 0 2 1
 description=GND
 T 19400 58200 5 10 0 0 0 0 1
@@ -144,7 +144,7 @@ C 24700 56700 1 0 0 gnd-1.sym
 C 58700 50000 1 0 0 testpt-2.sym
 {
 T 59000 50800 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP7
 T 58900 50700 5 10 0 0 0 0 1
 device=TESTPOINT
 T 58700 50000 5 10 0 0 0 0 1
@@ -155,7 +155,7 @@ footprint=TEST_PIN_1.fp
 C 23200 59000 1 0 0 testpt-2.sym
 {
 T 23500 59800 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP2
 T 23400 59700 5 10 0 0 0 0 1
 device=TESTPOINT
 T 23200 59000 5 10 0 0 0 0 1
@@ -172,7 +172,7 @@ N 67500 65000 67500 66000 4
 C 49000 48600 1 0 0 resistor-2.sym
 {
 T 49695 49400 5 16 1 1 0 3 1
-refdes=R?
+refdes=R10
 T 49700 49100 5 16 1 1 0 3 1
 value=1k
 T 49000 48400 5 10 0 0 0 0 1
@@ -183,7 +183,7 @@ devmap=generic/R/0603
 C 49000 47000 1 0 0 resistor-2.sym
 {
 T 49695 47800 5 16 1 1 0 3 1
-refdes=R?
+refdes=R12
 T 49700 47500 5 16 1 1 0 3 1
 value=1k
 T 49000 46800 5 10 0 0 0 0 1
@@ -197,7 +197,7 @@ N 45400 48800 49000 48800 4
 C 50000 50000 1 0 0 capacitor-1.sym
 {
 T 50395 50600 5 16 1 1 0 6 1
-refdes=C?
+refdes=C9
 T 51000 50600 5 16 1 1 0 0 1
 value=220p
 T 50000 49800 5 10 0 0 0 0 1
@@ -208,7 +208,7 @@ devmap=generic/C/0603
 C 48000 50200 1 0 0 resistor-2.sym
 {
 T 48695 51000 5 16 1 1 0 3 1
-refdes=R?
+refdes=R9
 T 48700 50700 5 16 1 1 0 3 1
 value=0R
 T 48000 50000 5 10 0 0 0 0 1
@@ -224,7 +224,7 @@ N 52000 50400 52000 48800 4
 C 48000 45400 1 0 0 resistor-2.sym
 {
 T 48695 46200 5 16 1 1 0 3 1
-refdes=R?
+refdes=R13
 T 48700 45900 5 16 1 1 0 3 1
 value=0R
 T 48000 45200 5 10 0 0 0 0 1
@@ -235,7 +235,7 @@ devmap=generic/R/0603
 C 50000 45200 1 0 0 capacitor-1.sym
 {
 T 50395 45800 5 16 1 1 0 6 1
-refdes=C?
+refdes=C10
 T 51000 45800 5 16 1 1 0 0 1
 value=220p
 T 50000 45000 5 10 0 0 0 0 1
@@ -251,7 +251,7 @@ N 52000 45600 52000 47200 4
 C 43500 52300 1 0 0 resistor-2.sym
 {
 T 44195 53100 5 16 1 1 0 3 1
-refdes=R?
+refdes=R6
 T 44200 52800 5 16 1 1 0 3 1
 value=10k
 T 43500 52100 5 10 0 0 0 0 1
@@ -266,7 +266,7 @@ N 42000 52500 42000 48000 4
 C 46200 45100 1 90 0 resistor-2.sym
 {
 T 46295 45900 5 16 1 1 0 0 1
-refdes=R?
+refdes=R11
 T 46300 45700 5 16 1 1 0 2 1
 value=10k
 T 46400 45100 5 10 0 0 90 0 1
@@ -280,7 +280,7 @@ C 45700 43700 1 0 0 gnd-1.sym
 C 38100 59100 1 0 0 resistor-2.sym
 {
 T 38795 59900 5 16 1 1 0 3 1
-refdes=R?
+refdes=R2
 T 38800 59600 5 16 1 1 0 3 1
 value=10k
 T 38100 58900 5 10 0 0 0 0 1
@@ -291,7 +291,7 @@ devmap=generic/R/0603
 C 38100 57500 1 0 0 resistor-2.sym
 {
 T 38795 58300 5 16 1 1 0 3 1
-refdes=R?
+refdes=R3
 T 38800 58000 5 16 1 1 0 3 1
 value=10k
 T 38100 57300 5 10 0 0 0 0 1
@@ -310,29 +310,29 @@ C 53300 59600 1 180 1 npn-1.sym
 T 53500 60000 5 10 0 0 180 6 1
 device=NPN_TRANSISTOR
 T 55500 59600 5 16 1 1 0 0 1
-refdes=Q?
+refdes=Q2
 T 55500 59200 5 16 1 1 0 0 1
 value=2N2907
 T 53300 59600 5 10 0 0 0 0 1
-footprint=TO92S.fp
+devmap=NXP/PZT2907A,115
 }
 C 53300 68600 1 180 1 npn-1.sym
 {
 T 53500 69000 5 10 0 0 180 6 1
 device=NPN_TRANSISTOR
 T 55500 68600 5 16 1 1 0 0 1
-refdes=Q?
+refdes=Q1
 T 55500 68200 5 16 1 1 0 0 1
 value=2N2907
 T 53300 68600 5 10 0 0 0 0 1
-footprint=TO92S.fp
+devmap=NXP/PZT2907A,115
 }
 C 52200 65100 1 90 0 resistor-2.sym
 {
 T 52400 65100 5 10 0 0 90 0 1
 device=RESISTOR
 T 52295 65900 5 16 1 1 0 0 1
-refdes=R?
+refdes=R4
 T 52300 65700 5 16 1 1 0 2 1
 value=2.7k
 T 52200 65100 5 10 0 0 0 0 1
@@ -349,7 +349,7 @@ C 54700 55700 1 0 0 gnd-1.sym
 C 56000 61800 1 0 0 resistor-2.sym
 {
 T 56695 62600 5 16 1 1 0 3 1
-refdes=R?
+refdes=R8
 T 56700 62300 5 16 1 1 0 3 1
 value=0R
 T 56000 61600 5 10 0 0 0 0 1
@@ -368,7 +368,7 @@ device=INPUT
 T 69100 44700 5 10 0 0 0 0 1
 footprint=MOUNTING_HOLE_V_M4.fp
 T 69100 45300 5 16 1 1 0 6 1
-refdes=J?
+refdes=J7
 T 68500 44900 5 16 1 1 0 8 1
 description=VIN-
 }
@@ -379,7 +379,7 @@ device=INPUT
 T 69100 43700 5 10 0 0 0 0 1
 devmap=TE-Connectivity/63849-1
 T 69100 44300 5 16 1 1 0 6 1
-refdes=J?
+refdes=J8
 T 68500 43900 5 16 1 1 0 8 1
 description=VIN-
 }
@@ -388,7 +388,7 @@ N 67500 45000 67500 44000 4
 C 51000 60800 1 0 0 resistor-2.sym
 {
 T 51695 61600 5 16 1 1 0 3 1
-refdes=R?
+refdes=R5
 T 51700 61300 5 16 1 1 0 3 1
 value=DNP
 T 51000 60600 5 10 0 0 0 0 1
@@ -402,7 +402,7 @@ N 52400 61000 55000 61000 4
 C 59300 46000 1 180 0 testpt-2.sym
 {
 T 59000 45200 5 16 1 1 0 5 1
-refdes=TP?
+refdes=TP8
 T 59100 45300 5 10 0 0 180 0 1
 device=TESTPOINT
 T 59300 46000 5 10 0 0 180 0 1
@@ -418,7 +418,7 @@ device=TESTPOINT
 T 40200 49100 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 40500 49900 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP5
 T 40200 49100 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -430,7 +430,7 @@ device=TESTPOINT
 T 45700 59600 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 46000 60400 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP4
 T 45700 59600 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -442,7 +442,7 @@ device=TESTPOINT
 T 57700 63100 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 58000 63900 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP6
 T 57700 63100 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -450,7 +450,7 @@ N 58000 63100 58000 62000 4
 C 56500 48600 1 0 0 resistor-2.sym
 {
 T 57195 49400 5 16 1 1 0 3 1
-refdes=R?
+refdes=R14
 T 57200 49100 5 16 1 1 0 3 1
 value=0R
 T 56500 48400 5 10 0 0 0 0 1
@@ -462,7 +462,7 @@ N 57900 48800 59000 48800 4
 C 56500 47000 1 0 0 resistor-2.sym
 {
 T 57195 47800 5 16 1 1 0 3 1
-refdes=R?
+refdes=R16
 T 57200 47500 5 16 1 1 0 3 1
 value=0R
 T 56500 46800 5 10 0 0 0 0 1
@@ -474,40 +474,40 @@ N 57900 47200 59000 47200 4
 C 45000 66900 1 0 0 diode-1.sym
 {
 T 45795 67900 5 16 1 1 0 3 1
-refdes=D?
+refdes=D1
 T 45800 67100 5 16 1 1 0 5 1
 value=1N4148
 T 45000 67000 5 10 0 0 0 0 1
 device=DIODE
 T 45000 66900 5 10 0 0 0 0 1
-footprint=SOD523.fp
+footprint=D_SOD523FL.fp
 }
 C 47000 66900 1 0 0 diode-1.sym
 {
 T 47795 67900 5 16 1 1 0 3 1
-refdes=D?
+refdes=D2
 T 47800 67100 5 16 1 1 0 5 1
 value=1N4148
 T 47000 67000 5 10 0 0 0 0 1
 device=DIODE
 T 47000 66900 5 10 0 0 0 0 1
-footprint=SOD523.fp
+footprint=D_SOD523FL.fp
 }
 C 49000 66900 1 0 0 diode-1.sym
 {
 T 49795 67900 5 16 1 1 0 3 1
-refdes=D?
+refdes=D3
 T 49800 67100 5 16 1 1 0 5 1
 value=1N4148
 T 49000 67000 5 10 0 0 0 0 1
 device=DIODE
 T 49000 66900 5 10 0 0 0 0 1
-footprint=SOD523.fp
+footprint=D_SOD523FL.fp
 }
 C 47000 69300 1 0 0 resistor-2.sym
 {
 T 47695 70100 5 16 1 1 0 3 1
-refdes=R?
+refdes=R1
 T 47700 69800 5 16 1 1 0 3 1
 value=120
 T 47000 69100 5 10 0 0 0 0 1
@@ -529,7 +529,7 @@ C 40100 57000 1 270 0 capacitor-1.sym
 T 39900 57000 5 10 0 0 270 0 1
 device=CAPACITOR
 T 40695 56500 5 16 1 1 0 0 1
-refdes=C?
+refdes=C5
 T 40700 56100 5 16 1 1 0 2 1
 value=470p
 T 40100 57000 5 10 0 0 0 0 1
@@ -543,11 +543,11 @@ C 41500 57300 1 0 0 opamp-with-supply-2.sym
 T 41900 57100 5 10 0 0 0 0 1
 device=OPAMP
 T 43500 58200 5 16 1 1 0 2 1
-refdes=U?
+refdes=U1
 T 43500 57900 5 16 1 1 0 2 1
 value=TL071
 T 41500 57300 5 10 0 0 0 0 1
-footprint=SOIC_8.fp
+devmap=TI/TL071CD
 }
 C 42200 61700 1 0 0 15V-plus-1.sym
 N 42500 61700 42500 59700 4
@@ -560,7 +560,7 @@ device=CAPACITOR
 T 43100 61400 5 10 0 0 0 0 1
 devmap=generic/C/0603
 T 43695 60900 5 16 1 1 0 0 1
-refdes=C?
+refdes=C4
 T 43700 60500 5 16 1 1 0 2 1
 value=100n
 }
@@ -576,7 +576,7 @@ device=CAPACITOR
 T 43100 56900 5 10 0 0 0 0 1
 devmap=generic/C/0603
 T 43695 56400 5 16 1 1 0 0 1
-refdes=C?
+refdes=C6
 T 43700 56000 5 16 1 1 0 2 1
 value=100n
 }
@@ -588,11 +588,11 @@ C 45400 46800 1 0 1 opamp-with-supply-2.sym
 T 45000 46600 5 10 0 0 0 6 1
 device=OPAMP
 T 43400 47700 5 16 1 1 0 8 1
-refdes=U?
+refdes=U2
 T 43400 47400 5 16 1 1 0 8 1
 value=TL071
 T 45400 46800 5 10 0 0 0 0 1
-footprint=SOIC_8.fp
+devmap=TI/TL071CD
 }
 C 44700 51200 1 0 1 15V-plus-1.sym
 N 44400 51200 44400 49200 4
@@ -605,7 +605,7 @@ device=CAPACITOR
 T 43800 50900 5 10 0 0 0 6 1
 devmap=generic/C/0603
 T 43205 50400 5 16 1 1 0 6 1
-refdes=C?
+refdes=C7
 T 43200 50000 5 16 1 1 0 8 1
 value=100n
 }
@@ -621,7 +621,7 @@ device=CAPACITOR
 T 43800 46400 5 10 0 0 0 6 1
 devmap=generic/C/0603
 T 43205 45900 5 16 1 1 0 6 1
-refdes=C?
+refdes=C8
 T 43200 45500 5 16 1 1 0 8 1
 value=100n
 }
@@ -635,7 +635,7 @@ device=TESTPOINT
 T 23200 61500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 23500 62300 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP1
 T 23200 61500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -647,7 +647,7 @@ device=TESTPOINT
 T 23200 56500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 T 23500 57300 5 16 1 1 0 3 1
-refdes=TP?
+refdes=TP3
 T 23200 56500 5 10 0 0 0 0 1
 footprint=TEST_PIN_1.fp
 }
@@ -659,7 +659,7 @@ device=INPUT
 T 19400 52700 5 10 0 0 0 0 1
 footprint=TEST_PIN_3.fp
 T 19400 53300 5 16 1 1 0 0 1
-refdes=J?
+refdes=J4
 T 20000 52900 5 16 1 1 0 2 1
 description=ISET
 }
@@ -683,7 +683,7 @@ C 21100 60500 1 270 0 capacitor-1.sym
 T 20900 60500 5 10 0 0 270 0 1
 device=CAPACITOR
 T 21695 60000 5 16 1 1 0 0 1
-refdes=C?
+refdes=C1
 T 21700 59600 5 16 1 1 0 2 1
 value=4.7u
 T 21100 60500 5 10 0 0 0 0 1
@@ -694,7 +694,7 @@ C 21100 58000 1 270 0 capacitor-1.sym
 T 20900 58000 5 10 0 0 270 0 1
 device=CAPACITOR
 T 21695 57500 5 16 1 1 0 0 1
-refdes=C?
+refdes=C2
 T 21700 57100 5 16 1 1 0 2 1
 value=4.7u
 T 21100 58000 5 10 0 0 0 0 1
@@ -704,5 +704,3 @@ N 21500 61000 21500 60500 4
 N 21500 59100 21500 58500 4
 N 21500 58500 21500 58000 4
 N 21500 56600 21500 56000 4
-T 55900 67500 9 24 1 0 0 0 1
-TODO: SOT-23 => TO-261 / SOT-223
